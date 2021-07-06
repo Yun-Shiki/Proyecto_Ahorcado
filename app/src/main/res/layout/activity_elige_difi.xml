@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
+    tools:context=".Elige_Difi">
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:onClick="sonido"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+    <TextView
+        android:id="@+id/titulo2"
+        android:layout_width="357dp"
+        android:layout_height="138dp"
+        android:gravity="center_horizontal"
+        android:text="@string/titulo2"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="facilDificil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/facil"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:button="@android:drawable/btn_radio"
+            android:gravity="center_horizontal"
+            android:onClick="facilDificil"
+            android:text="@string/facil"
+            android:textAlignment="center"
+            android:textColor="@color/verdeflojo"
+            android:textSize="60sp" />
+
+        <RadioButton
+            android:id="@+id/dificil"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:button="@android:drawable/btn_radio"
+            android:gravity="center_horizontal"
+            android:onClick="facilDificil"
+            android:text="@string/Dificil"
+            android:textAlignment="center"
+            android:textColor="@color/rojo"
+            android:textSize="60sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="155dp"
+        android:layout_height="62dp"
+        android:onClick="ok"
+        android:text="@string/ok"
+        android:textSize="34sp"
+        app:backgroundTint="@color/rojo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.843" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

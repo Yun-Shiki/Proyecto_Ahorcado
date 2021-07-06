@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ahorcado</string>
+    <string name="boton1">Aleatorio</string>
+    <string name="boton2">Personalizado</string>
+    <string name="titulo2">Elige la dificultad!</string>
+    <string name="facil">Facil</string>
+    <string name="Dificil">Dificil</string>
+    <string name="ok">OK</string>
+    <string name="hint">Escribe una letra a comprobar</string>
+    <string name="resultado">Introduce el resultado</string>
+    <string name="enviar">Enviar</string>
+    <string name="salir">Salir</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="persona">PERSONALIZAR!</string>
+    <string name="A">A</string>
+    <string-array name="spinner">
+        <item>5 intentos</item>
+        <item>4 intentos</item>
+        <item>3 intentos</item>
+        <item>2 intentos</item>
+        <item>1 intento</item>
+    </string-array>
+</resources>

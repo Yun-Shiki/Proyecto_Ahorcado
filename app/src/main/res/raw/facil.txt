@@ -1,0 +1,1 @@
+Avión,Coche,Motocicleta,Plástico Espuma,Hipopotamo,humanidad,humano,persona,gente,hombre,mujer,bebe,niño,niña,adolescente,adulto, adulta,anciano, anciana,don, doña,señor, señora,caballero,dama,individuo
